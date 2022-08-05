@@ -1,0 +1,19 @@
+\documentclass{article}
+
+\usepackage{graphicx}
+\usepackage{subfig}
+\graphicspath{{imagenes}}
+
+\begin{document}
+\begin{figure}[]
+	\centering
+	\subfloat[Gatito]{
+		\label{f:gato}
+		\includegraphics[width=0.3\textwidth]{f_t_c_esquema}}
+	\subfloat[Tigre]{
+		\label{f:tigre}
+		\includegraphics[width=0.3\textwidth]{f_t_c_grafica}}
+	\caption{Múltiples imágenes}
+	\label{f:animales}
+\end{figure}
+\end{document}
